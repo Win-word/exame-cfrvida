@@ -1,0 +1,93 @@
+
+*{
+  padding: 0px;
+  text-align: center;
+}
+a{
+  color: white;
+}
+
+#pv{
+  color: gold;
+}
+
+#mv{
+  color:red;
+}
+
+
+.mdiv{
+  background-image: url("haven.jpg");
+  background-color: #23114478;
+  border-radius: 20px;
+}
+body{
+  background-image: url("haven.jpg");
+}
+#lk{
+  color: #fff0
+}
+.box_app{
+  border: 5px solid #12535788;
+  
+  height: 200px;
+  width: 50%;
+  border-radius: 20px;
+  background-color: #00327699;
+  text-align: center;
+}
+
+.box_app div img{
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+}
+#h1dv{
+  background-color: #00ffff77;
+  height: 100px;
+  border-radius: 15px;
+  display: flex;
+  
+}
+
+.bbcx{
+  display: flex;
+  
+}
+
+#h1dv div{
+  padding: 2%;
+}
+
+#h1dv img{
+  border-radius: 15px;
+}
+.box_app div{
+  color: white;
+}
+
+#text_div{
+  font-size: 24px;
+  font-family: Times New Roman;
+  color: white;
+  width:  50%;
+  background-color: #23431200;
+}
+
+
+@media (max-width: 600px){
+    
+
+  .bbcx{
+      display: block;
+
+  }
+  .box_app{
+    width: 90%;
+    margin: 10px;
+  }
+  #text_div{
+    width: 90%;
+    margin: 10px;
+  }
+}
